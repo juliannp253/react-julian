@@ -1,49 +1,64 @@
 
 body {
-    background-color: black;
+    background-color: black; 
     color: white;
     font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
 .intro-section,
 .projects-section,
 .about-section {
-    margin: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .intro-name {
-    font-size: large;
     color: white;
+    margin-bottom: 0;
 }
 
 .intro-title {
-    color: skyblue;
+    color: deepskyblue; 
+    margin-top: 5px;
 }
 
 .section-title {
-    border-bottom: solid 1px gray;
+    border-bottom: solid 2px gray;
+    padding-bottom: 5px;
     color: white;
 }
 
 .project-card {
-    background-color: darkgray;
-    color: black;
-    border: solid 1px black;
-    padding: 10px;
-    margin-bottom: 10px;
+    background-color: #1e1e1e;
+    border: solid 1px gray;
+    border-radius: 8px; 
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
 .project-title {
-    color: black;
+    color: white;
+    margin-top: 0;
 }
 
-.project-description {
-    color: black;
+.project-description,
+.intro-description,
+.about-text {
+    color: lightgray; 
+    line-height: 1.5;
 }
 
 .badge {
-    background-color: black;
+    background-color: navy; 
     color: white;
-    padding: 3px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: small;
     display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
 }
